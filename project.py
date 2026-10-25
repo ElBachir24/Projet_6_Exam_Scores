@@ -88,6 +88,17 @@ def grade_histogram(data):
         print(f"{group}: {'*' * count}")
 
 
+
+print(mean([4, 8, 6, 5, 3, 8]))   # expected: 5.666...
+print(median([4, 8, 6, 5, 3, 8]))   # expected: 5.5
+print(median([7, 1, 3]))   # expected: 3
+print(mode([4, 8, 6, 5, 3, 8]))   # expected: 8
+print(std_dev([4, 8, 6, 5, 3, 8]))   # expected: 1.885...
+print(outliers([50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 95]))   # expected: [95]
+
+
+
+
 # --- TASK 4 & MAIN: Leader / Member 5 (Diouf Mouhamed El Bachir) ---
 def main():
     print("==========================================")
